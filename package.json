@@ -1,0 +1,20 @@
+{
+  "name": "trinity-practice-project",
+  "version": "1.0.0",
+  "description": "React, Typescript, and Redux practice",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/skrunic/ty-re-rx.git"
+  },
+  "files": [".gitignore"],
+  "main": "index.js",  
+  "dependencies": {
+    "webpack": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "skrunic",
+  "license": "ISC"
+}
