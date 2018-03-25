@@ -7,17 +7,8 @@ var localConfig = {
     filename: './bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-  devtool: 'inline-source-map',
   module: {
     rules: [
-      {
-        test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        loader: 'file-loader',
-      },
-      { 
-        test: /\.css$/, 
-        use: ['style-loader', 'css-loader']
-      },
       { 
         test: /\.jsx$/, 
         loader: 'babel-loader', 
@@ -40,14 +31,6 @@ var serverConfig = {
   },
   module: {
     rules: [
-      {
-        test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        loader: 'file-loader',
-      },
-      { 
-        test: /\.css$/, 
-        use: ['style-loader', 'css-loader']
-      },
       { 
         test: /\.jsx$/, 
         loader: 'babel-loader', 
