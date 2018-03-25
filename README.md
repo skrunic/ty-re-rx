@@ -1,9 +1,10 @@
 # ty-re-rx
 React, Typescript, and Redux practice project.
 
-Here I'm outlining the whole setup process so that other colleagues might set up their environments in the same way.
+Here I'm outlining the whole setup process so that other colleagues might set up their environments and future projects in the same way.
 
 #1. PROJECT SETUP
+    
     1.1. Create GitHub repository.
 
     1.2. Create project folder and suggested subfolders (files will be created in future steps):
@@ -25,6 +26,7 @@ Here I'm outlining the whole setup process so that other colleagues might set up
 
 
 #2. NODE
+    
     2.1. Install node.js locally. Files on link: https://nodejs.org/en/
 
     2.2. Install VS Code extension 'npm' to use npm commands in terminal. Restart VSC.
@@ -36,6 +38,7 @@ Here I'm outlining the whole setup process so that other colleagues might set up
 
 
 #3. REACT
+    
     3.1. Install React and ReactDOM as dependencies. Work projects use versions 0.14.9 so we'll use them too.
         * npm install react@0.14.9 react-dom@0.14.9 --save
     
@@ -55,6 +58,7 @@ Here I'm outlining the whole setup process so that other colleagues might set up
 
 
 #4. WEBPACK
+    
     4.1. Install Webpack as devDependency. Work projects use version 3.10.0 so we'll use that version.
         * npm install webpack@3.10.0 --save-dev
     
@@ -94,17 +98,20 @@ Here I'm outlining the whole setup process so that other colleagues might set up
 
 
 #5. REDUX
+    
     5.1. Install Redux as dependency.
         * npm install redux --save
 
 
 #6. TYPESCRIPT
+    
     6.1. Install Typescript
     6.2. 
     6.3. Rename index.jsx to index.tsx
 
 
 #7. GIT
+    
     7.1. Create a .gitignore file
     7.2. Add files and folders to ignore during push
         .vscode/
